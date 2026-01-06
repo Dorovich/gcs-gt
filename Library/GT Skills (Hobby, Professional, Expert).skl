@@ -1,0 +1,1652 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "sPv5ga4iwc4ngja2c",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sNjbXhOiMNN9jl_RJ"
+			},
+			"name": "Bartender",
+			"reference": "B216",
+			"tags": [
+				"Professional",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Carousing",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sWdN0Pn5xDPDzYV8A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sxglmNWmcsR5YcSDw"
+			},
+			"name": "Cooking",
+			"reference": "B185",
+			"tags": [
+				"Everyman"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sPQdzbQPlPZnz8Cme",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sQ6d6Vd_CsdeNzbiV"
+			},
+			"name": "Cooking",
+			"reference": "B185",
+			"tags": [
+				"Everyman"
+			],
+			"specialization": "@Specialty@",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "svfmmI_JbaIVw8fww",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spcD4n1qGEgtMUX7M"
+			},
+			"name": "Cooking",
+			"reference": "B185",
+			"tags": [
+				"Everyman"
+			],
+			"specialization": "Baking",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sdg5gb2dpurqcupAO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sZcWieaQhitPQdZ6m"
+			},
+			"name": "Cooking",
+			"reference": "B185",
+			"tags": [
+				"Everyman"
+			],
+			"specialization": "Beverage Making",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sdJW4mc8q3vc78Yba",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sWFtA7Gvclq4aL-Yb"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Business",
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "@Subject@",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s9n90G1L5qUN3EsMJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sKOmJlv_7KR14adzW"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Business",
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Business",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sWw_G8hJ-V8m9dXLb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sD4fUkpkj37Cpnm1z"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Headline News",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sYzPOdVMuFPi4gnaD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s4BmaX2CiqLccuB_5"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "High Culture",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sR5kER3DqR0bB_SKX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sPVKx0V_AAgtQHZkd"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "People",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sAiz3zheTj9GexDwQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s10aGuDru_p7ABhKW"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Politics",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sPwUyPVP7kCPE7qwP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "soKJZnazxqKXVkp10"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Popular Culture",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "shP9UlYXeyUj3HDZt",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBx1tiUNiX5AvQpIz"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Regional",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "s--rKZdQ3DyYGOGzM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sWZx5RKXXnBX3nFHt"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Science \u0026 Technology",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sX7--P_9TgoWXV-Jk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sdRSlSZk2CCNNJ0i6"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Sports",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "slKueklAADEG4mxcQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s3iSN0-YJRl0MDrvf"
+			},
+			"name": "Current Affairs",
+			"reference": "B186",
+			"tags": [
+				"Everyman",
+				"Knowledge",
+				"Social"
+			],
+			"specialization": "Travel",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sVFx7ein_gyyFOZyy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "srkpvMJuu4TRxCcO7"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Scholarly",
+				"Spy"
+			],
+			"specialization": "Computer Security",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "s7d-heY0jWnuvD2oI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sByG3GvJehFY8b614"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Scholarly"
+			],
+			"specialization": "Conspiracy Theory",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sejNVH3uswNVi96JO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sVG21oGW_ok1qdXIS"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Medical",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Epidemiology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sFwGDbyvjfYxzM-ug",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swPEguEhGicG5M08E"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Geography",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sJ-45sP5moxxu3oJV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "swPEguEhGicG5M08E"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Hydrology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "s3Xgiuw8YoX-8e3m6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s88gTPKTH8WGPQqDI"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Military",
+				"Scholarly"
+			],
+			"specialization": "Military Science",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "seJczEV1kxvsupMSH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "suJZrsB0u5UHi5Fur"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Knowledge",
+				"Natural Science",
+				"Scholarly"
+			],
+			"specialization": "Natural Philosophy",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sVcRQmgu3ARSXRYz8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s0dU_3l7J0a0U3S28"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Humanities",
+				"Knowledge",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Political Science",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "smnBBJKW2x1tb3m2v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sqKieRudf_Tp4-T6T"
+			},
+			"name": "Expert Skill",
+			"reference": "B193,MA56",
+			"tags": [
+				"Humanities",
+				"Knowledge",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Xenology",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sNegKYmpG7AZM-vrp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sxvdYLe6aBGDF208V"
+			},
+			"name": "Farming",
+			"reference": "B194",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Gardening",
+					"modifier": -3
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sd8jCWvp3sXRFpwFS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sOzdhG3D1equT9MNn"
+			},
+			"name": "Fishing",
+			"reference": "B195",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "per/e",
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sriKOfPQ2rO9YN1Cq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sVspKJvpEaYNHFmRo"
+			},
+			"name": "Freight Handling",
+			"reference": "B197",
+			"tags": [
+				"Technical",
+				"Vehicle"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sNT0qMLxKQNoH8Sgj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "syfSQ9N8yETqQbhFK"
+			},
+			"name": "Games",
+			"reference": "B197,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "@Specialty@",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sa17PGUIJ3v9GEe9_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sjjIH1hLuX-mkv5ZH"
+			},
+			"name": "Gardening",
+			"reference": "B197",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Farming",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "srGYuaNybd0n497Cv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sMUFAf6g_JoMYW3r7"
+			},
+			"name": "Group Performance",
+			"reference": "B198,MA57",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "@Art@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Dancing",
+					"modifier": -2
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sk98cIsB9dQ_4fuo8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s67bGQ_e5_wCaaEx-"
+			},
+			"name": "Group Performance",
+			"reference": "B198,MA57",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Choreography",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Dancing",
+					"modifier": -2
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "dancing"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "s6-UAaaQnrODnYcfM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sVA6l16nBR86F53ab"
+			},
+			"name": "Group Performance",
+			"reference": "B198,MA57",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Conducting",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Musical Instrument",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Singing",
+					"modifier": -3
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "contains",
+											"qualifier": "musical instrument"
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "contains",
+											"qualifier": "musical instrument"
+										}
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "contains",
+											"qualifier": "musical instrument"
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "singing"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sAkxBN--YqruCKk_V",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sZ7NYJ5fxLa2Jj93s"
+			},
+			"name": "Group Performance",
+			"reference": "B198,MA57",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Directing",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -5
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "performance"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sPgZyxxkA1U0dp9M_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "spLtdtwiNdLkklweA"
+			},
+			"name": "Group Performance",
+			"reference": "B198,MA57",
+			"tags": [
+				"Arts",
+				"Entertainment"
+			],
+			"specialization": "Fight Choreography",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Stage Combat",
+					"modifier": -2
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "stage combat"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "sJk-9FqUrKZS0FT0W",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sYlFWI7xkIaK8OMWP"
+			},
+			"name": "Heraldry",
+			"reference": "B199",
+			"tags": [
+				"Knowledge",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Etiquette",
+					"specialization": "High Society",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s3UtIT5_-Dr_-4S3c",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sOtPessbzkRjGaQPR"
+			},
+			"name": "Hobby Skill",
+			"reference": "B200,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "@Mental Hobby@",
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sGxk7V_SWyCom_99M",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sDLf4crz0sGRjVDFi"
+			},
+			"name": "Hobby Skill",
+			"reference": "B200,MA57",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "@Physical Hobby@",
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sKFgMrl0FfMZJ2sXE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sfZrwMVUibhbtdssl"
+			},
+			"name": "Housekeeping",
+			"reference": "B200",
+			"tags": [
+				"Everyman"
+			],
+			"difficulty": "iq/e",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "snM1wlQ-hmuLaod10",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s1DSyczxGV_euy5Vu"
+			},
+			"name": "Market Analysis",
+			"reference": "B207",
+			"tags": [
+				"Business"
+			],
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Economics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sZULPC5lz_tJrKrDg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sM7zEW0oDYHNZZuWo"
+			},
+			"name": "Packing",
+			"reference": "B212",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "Equines",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sYKXT_9NuV-C6KwSh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sWZxYKexOd29DFrRI"
+			},
+			"name": "Photography",
+			"reference": "B213",
+			"tags": [
+				"Arts",
+				"Entertainment",
+				"Spy",
+				"Technical"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Electronics Operation",
+					"specialization": "Media",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "scFt1ZMCRYEc1h5Ao",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s6tcQ-jAVh2MoJ_uf"
+			},
+			"name": "Politics",
+			"reference": "B215",
+			"tags": [
+				"Business",
+				"Social"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Diplomacy",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sLqVAUptXeAB9HZKj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sx1CDkGBR830IZrmz"
+			},
+			"name": "Professional Skill",
+			"reference": "B215",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "@Mental Skill@",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sa1GzI6HEqhjjeN27",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sBec-o4Z7gPpbg2f9"
+			},
+			"name": "Professional Skill",
+			"reference": "B215",
+			"tags": [
+				"Knowledge"
+			],
+			"specialization": "@Physical Skill@",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sbsP-13X3ExVZA6Fa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sH-gwMqLTWQ337rzx"
+			},
+			"name": "Propaganda",
+			"reference": "B216",
+			"tags": [
+				"Business",
+				"Military",
+				"Social",
+				"Spy"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sB97e94RH9jyYXMnd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "ssj5Oq-3-vH-bQ1AL"
+			},
+			"name": "Prospecting",
+			"reference": "B216",
+			"tags": [
+				"Exploration",
+				"Outdoor"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Geology",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sM64jUlpCFHHv34GU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smwvG7uvdgf3cJC56"
+			},
+			"name": "Sewing",
+			"reference": "B219",
+			"tags": [
+				"Craft",
+				"Everyman"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sLUxSVCChhOsN_45I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s-Sz8XmnGE56GDrez"
+			},
+			"name": "Soldier",
+			"reference": "B221",
+			"tags": [
+				"Military"
+			],
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "sjo1m8P_HhlBX0uw-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "smxkcngH5Kz54yeN3"
+			},
+			"name": "Sports",
+			"reference": "B222,MA59",
+			"tags": [
+				"Athletic"
+			],
+			"specialization": "@Speciality@",
+			"difficulty": "dx/a",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "sUPr-yQlZpB_2PfAz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "sy8miYImrH3fYmTAL"
+			},
+			"name": "Sports",
+			"reference": "B194",
+			"tags": [
+				"Animal"
+			],
+			"specialization": "Falconry",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "Raptors",
+					"modifier": -3
+				}
+			],
+			"points": 1
+		},
+		{
+			"id": "s63_sk0-ivtjL8BM3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "syDYl_qmW2q_TFWjQ"
+			},
+			"name": "Typing",
+			"reference": "B228",
+			"tags": [
+				"Everyman",
+				"Scholarly",
+				"Technical"
+			],
+			"difficulty": "dx/e",
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"points": 1
+		}
+	]
+}
