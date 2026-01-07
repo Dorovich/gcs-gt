@@ -404,37 +404,6 @@
 			"points": 1
 		},
 		{
-			"id": "sFTKhFHN2QURE74VB",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sNzqPNXe6m0OPGuJ5"
-			},
-			"name": "Armoury",
-			"reference": "B178",
-			"tags": [
-				"Maintenance",
-				"Military",
-				"Repair"
-			],
-			"specialization": "@Armor type@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "@Armor type@",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "s9Jr1FnR7atJ9zy_d",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -744,31 +713,6 @@
 					"name": "Engineer",
 					"specialization": "Vehicular Armor",
 					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
-			"id": "sjB49oYMJV9S4KogV",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s3VHZqqfZBcYRa58N"
-			},
-			"name": "Artillery",
-			"reference": "B178",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "@Weapon type@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
 				}
 			],
 			"tech_level": "",
@@ -1632,11 +1576,11 @@
 			"points": 1
 		},
 		{
-			"id": "sKlUL-wNFL-2Ok-pq",
+			"id": "ssFJsr1H4cKKHTXBc",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sBJgeWUs81Ifhob4Z"
+				"id": "siYt1EBnBE2eyvV2M"
 			},
 			"name": "Beam Weapons",
 			"reference": "B179",
@@ -1645,7 +1589,7 @@
 				"Ranged Combat",
 				"Weapon"
 			],
-			"specialization": "@Weapon class@",
+			"specialization": "Longarm",
 			"difficulty": "dx/e",
 			"defaults": [
 				{
@@ -1660,7 +1604,7 @@
 				{
 					"type": "skill",
 					"name": "Guns",
-					"specialization": "Pistol",
+					"specialization": "Longarm",
 					"modifier": -4
 				}
 			],
@@ -1734,42 +1678,6 @@
 			"points": 1
 		},
 		{
-			"id": "ssFJsr1H4cKKHTXBc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "siYt1EBnBE2eyvV2M"
-			},
-			"name": "Beam Weapons",
-			"reference": "B179",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "Rifle",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Beam Weapons",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Guns",
-					"specialization": "Rifle",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sbH8MjPyU7THrVPFX",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -1795,36 +1703,6 @@
 					"modifier": -4
 				}
 			],
-			"points": 1
-		},
-		{
-			"id": "sSVlYdlzB3bRWs8Gv",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sSnvf-r4ViMOrA_5y"
-			},
-			"name": "Bioengineering",
-			"reference": "B180",
-			"tags": [
-				"Design",
-				"Invention"
-			],
-			"specialization": "@Specialty@",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Biology",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Bioengineering",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
 			"points": 1
 		},
 		{
@@ -3636,46 +3514,6 @@
 			"points": 1
 		},
 		{
-			"id": "sbpVY1wZaBz6q7DB6",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sUOQKAH8IaMhpxk1o"
-			},
-			"name": "Electronics Operation",
-			"reference": "B189",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "@Electronics type@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Operation",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Repair",
-					"specialization": "Communications",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Electronics",
-					"modifier": -5
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "s-afJkomWtmyZ0YRG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -4079,47 +3917,6 @@
 				{
 					"type": "skill",
 					"name": "Electronics Operation",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
-			"id": "sEN-ByMmWAjWc3U1k",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sYwZvSMZ9tfHES4z7"
-			},
-			"name": "Electronics Repair",
-			"reference": "B190",
-			"tags": [
-				"Maintenance",
-				"Repair"
-			],
-			"specialization": "@Electronics type@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Operation",
-					"specialization": "Communications",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"specialization": "Electronics",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Electronics Repair",
 					"modifier": -4
 				}
 			],
@@ -5845,40 +5642,6 @@
 			"points": 1
 		},
 		{
-			"id": "soxIHa6k3VVBO_gc9",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s6pyN9k_RPgw065tJ"
-			},
-			"name": "Explosives",
-			"reference": "B194",
-			"tags": [
-				"Military",
-				"Technical"
-			],
-			"specialization": "Fireworks",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Chemistry",
-					"modifier": -3
-				},
-				{
-					"type": "skill",
-					"name": "Explosives",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sFJjjBxZMyAS6sKww",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -5903,6 +5666,40 @@
 					"name": "Explosives",
 					"specialization": "Explosive Ordnance Disposal",
 					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Explosives",
+					"modifier": -4
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "soxIHa6k3VVBO_gc9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s6pyN9k_RPgw065tJ"
+			},
+			"name": "Explosives",
+			"reference": "B194",
+			"tags": [
+				"Military",
+				"Technical"
+			],
+			"specialization": "Pyrotechnics",
+			"difficulty": "iq/a",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Chemistry",
+					"modifier": -3
 				},
 				{
 					"type": "skill",
@@ -6665,29 +6462,6 @@
 			"points": 1
 		},
 		{
-			"id": "s2Srnm8wNewYCYFlT",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sn9Y6a4YbUfsQ8GxY"
-			},
-			"name": "Hazardous Materials",
-			"reference": "B199",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "@Specialization@",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "s6eLk_A9PqIOU66kG",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -6723,29 +6497,6 @@
 				"Technical"
 			],
 			"specialization": "Chemical",
-			"difficulty": "iq/a",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
-			"id": "s-UMBrDci1KsRlNoc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sbq_G97AEqY7ANwu6"
-			},
-			"name": "Hazardous Materials",
-			"reference": "B199",
-			"tags": [
-				"Technical"
-			],
-			"specialization": "Nanotech",
 			"difficulty": "iq/a",
 			"defaults": [
 				{
@@ -7250,36 +7001,6 @@
 			"points": 1
 		},
 		{
-			"id": "sN63EcsySgumrmTRh",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sD52ZWybVs6biZy2K"
-			},
-			"name": "Liquid Projector",
-			"reference": "B205",
-			"tags": [
-				"Combat",
-				"Ranged Combat",
-				"Weapon"
-			],
-			"specialization": "@Weapon class@",
-			"difficulty": "dx/e",
-			"defaults": [
-				{
-					"type": "dx",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Liquid Projector",
-					"modifier": -4
-				}
-			],
-			"tech_level": "",
-			"points": 1
-		},
-		{
 			"id": "sB6iv7L5s1-WuGS8n",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -7543,39 +7264,6 @@
 					"modifier": -4
 				}
 			],
-			"points": 1
-		},
-		{
-			"id": "s_X-k4Xe7loWfIcgq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sDKy9mOhQeiZ6fjvq"
-			},
-			"name": "Mathematics",
-			"reference": "B207",
-			"tags": [
-				"Natural Science"
-			],
-			"specialization": "@Specialization@",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Physics",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"modifier": -5
-				}
-			],
-			"tech_level": "",
 			"points": 1
 		},
 		{
@@ -10262,37 +9950,6 @@
 					"modifier": -5
 				}
 			],
-			"points": 1
-		},
-		{
-			"id": "szG9pt4O3AbNueOol",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s65U7Q64hLe7e_7UR"
-			},
-			"name": "Paleontology",
-			"reference": "B212",
-			"tags": [
-				"Humanities",
-				"Natural Science",
-				"Social Sciences"
-			],
-			"specialization": "@Specialization@",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "skill",
-					"name": "Biology",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Paleontology",
-					"modifier": -2
-				}
-			],
-			"tech_level": "",
 			"points": 1
 		},
 		{
