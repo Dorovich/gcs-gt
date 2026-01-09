@@ -33,5 +33,6 @@ Otras habilidades que pueden ser interesantes:
 | Artillery (Beams)<br>Artillery (Guided Missile) | -- | Artillero |
 | Armoury (Vehicular Armor)<br>Armoury (Heavy Weapons) | -- | Artillero, Técnico |
 | Surgery | First Aid | Médico |
-| Engineer (Starships) | -- | Ingeniero |
+| Engineer (Starships)<br>Engineer (Jump Drive) | Mathematics (Applied) | Ingeniero |
+| Engineer (Electronics) | Mathematics (Applied) | Ingeniero, Especialista |
 | Computer Programming | -- | Especialista |

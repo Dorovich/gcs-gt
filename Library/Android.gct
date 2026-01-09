@@ -1,0 +1,444 @@
+{
+	"version": 5,
+	"id": "Bj6Wa98apmUUnOrR1",
+	"traits": [
+		{
+			"id": "TCZW8Z_Vc6KjEWOLL",
+			"name": "Android/TL10",
+			"modifiers": [
+				{
+					"id": "mGw_Dg8UkaxkVPKxI",
+					"cost_adj": "-50%"
+				}
+			],
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"children": [
+				{
+					"id": "tDLFsuBoIL_6PhHkH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toRWQC_wqLurdUtig"
+					},
+					"name": "Electrical",
+					"reference": "B134",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": -20,
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "T1w7WSoKEMEjM0OGq",
+					"name": "Meta-Trait: Artificial Intelligence",
+					"reference": "B263",
+					"container_type": "meta_trait",
+					"children": [
+						{
+							"id": "t-763ZW9d44G9379v",
+							"name": "Absolute Timing",
+							"reference": "B35",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mtiGD_1rUazkQEHdp",
+									"name": "Chronolocation",
+									"cost_adj": "3",
+									"disabled": true
+								}
+							],
+							"base_points": 2,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "teBeXrFbGlkmXPocG",
+							"name": "Digital Mind",
+							"reference": "B49",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "teyDxiYQrS7vTCHQl",
+							"name": "Doesn't Sleep",
+							"reference": "B50",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tnkXYTgazIF6RUy1f",
+							"name": "Eidetic Memory",
+							"reference": "B51",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mSo6td3Dt-P3G_hh1",
+									"name": "Photographic",
+									"reference": "B51",
+									"cost_adj": "5"
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tLW8mthUa1qrE-34d",
+							"name": "Lightning Calculator",
+							"reference": "B66",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mOS-X5aklr5PeUusV",
+									"name": "Intuitive Mathematician",
+									"reference": "B66",
+									"cost_adj": "3"
+								}
+							],
+							"base_points": 2,
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "t4o-k5whmcsNpdfuN",
+							"name": "Reprogrammable",
+							"reference": "B150",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Mental"
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -5
+							}
+						}
+					],
+					"calc": {
+						"points": 17
+					}
+				},
+				{
+					"id": "TtbHqcnNDdaIqCpfd",
+					"name": "Meta-Trait: Machine",
+					"reference": "B263",
+					"container_type": "meta_trait",
+					"children": [
+						{
+							"id": "tyZSxOZiy33NOxz0Y",
+							"name": "Eight-hour energy reserve, Refuel 3 times per day",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tcKbY5_qlAE4z7uj7",
+							"name": "Injury Tolerance",
+							"reference": "B60",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mU0bsCEQNVcyLxJsw",
+									"name": "Diffuse",
+									"reference": "B60",
+									"local_notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+									"cost_adj": "100",
+									"disabled": true
+								},
+								{
+									"id": "m6c-eaUOm8IRtW7sq",
+									"name": "Homogenous",
+									"reference": "B60",
+									"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+									"cost_adj": "40",
+									"disabled": true
+								},
+								{
+									"id": "mXM7NdD3ocHV8mHUk",
+									"name": "No Blood",
+									"reference": "B61",
+									"local_notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+									"cost_adj": "5"
+								},
+								{
+									"id": "mkGhiTjY0mOo_q-hF",
+									"name": "No Brain",
+									"reference": "B61",
+									"local_notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+									"cost_adj": "5",
+									"disabled": true
+								},
+								{
+									"id": "mt3-QrDpuZ2bfKAll",
+									"name": "No Eyes",
+									"reference": "B61",
+									"local_notes": "Eyes may not be targeted. Immune to blinding attacks",
+									"cost_adj": "5",
+									"disabled": true
+								},
+								{
+									"id": "mNnV4KR8pywK1kkwG",
+									"name": "No Head",
+									"reference": "B61",
+									"local_notes": "Skull, Brain and Face cannot be targeted",
+									"cost_adj": "7",
+									"disabled": true
+								},
+								{
+									"id": "m9yo7aNvubx0QCmND",
+									"name": "No Neck",
+									"reference": "B61",
+									"local_notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+									"cost_adj": "5",
+									"disabled": true
+								},
+								{
+									"id": "mA4IOdnOgPYsYlY_y",
+									"name": "No Vitals",
+									"reference": "B61",
+									"local_notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+									"cost_adj": "5",
+									"disabled": true
+								},
+								{
+									"id": "mMM1lRkgwmCbiwESe",
+									"name": "Unliving",
+									"reference": "B61",
+									"local_notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+									"cost_adj": "20"
+								}
+							],
+							"calc": {
+								"points": 13
+							}
+						},
+						{
+							"id": "t5q4Tj_kYtUGOjwhp",
+							"name": "No fatigue points, Don't spend fatigue points",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tP0dCCKktEaH3RcW6",
+							"name": "Resistant",
+							"reference": "B81",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mmOwgxaVrxNzYf_DT",
+									"name": "Metabolic Hazards",
+									"reference": "B80",
+									"cost_adj": "30"
+								},
+								{
+									"id": "mb2VYigiW6U4aqaGp",
+									"name": "@Common: Poison, Sickness, etc.@",
+									"reference": "B81",
+									"cost_adj": "15",
+									"disabled": true
+								},
+								{
+									"id": "mo5AevtVhOAfMpEfN",
+									"name": "@Occasional: Disease, Ingested Poison, etc.@",
+									"reference": "B81",
+									"cost_adj": "10",
+									"disabled": true
+								},
+								{
+									"id": "mW9qgzHBMh5asPuEF",
+									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+									"reference": "B81",
+									"cost_adj": "5",
+									"disabled": true
+								},
+								{
+									"id": "mM1I66OB1s7QCavxN",
+									"name": "Immunity",
+									"reference": "B81",
+									"cost_adj": "x1"
+								},
+								{
+									"id": "mtcF2CXJgx-fRErBN",
+									"name": "+8 to all HT rolls to resist",
+									"reference": "B81",
+									"cost_adj": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "ms7LcfdJ-BigtW8gR",
+									"name": "+3 to all HT rolls to resist",
+									"reference": "B81",
+									"cost_adj": "x0.33",
+									"disabled": true
+								}
+							],
+							"round_down": true,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "tpVL8or6jXFevzzPN",
+							"name": "Unhealing (Total)",
+							"reference": "B160",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -30,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tli9bpavVAWWN1EWS",
+							"name": "Wears out instead of aging",
+							"reference": "B263",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 13
+					}
+				},
+				{
+					"id": "t0TmtSLQQjz2RhXFd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tynHtgvWZmmNOL97D"
+					},
+					"name": "Reduced Consumption",
+					"reference": "B80",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mV3c0Fx9B79ZHMb7x",
+							"name": "Cast-Iron Stomach",
+							"reference": "B80",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mFxBXwt2np0wJYGF5",
+							"name": "Food Only",
+							"reference": "B80",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mM3PUm1a1vrT7HEFM",
+							"name": "Water Only",
+							"reference": "B80",
+							"cost_adj": "-50%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 2,
+					"can_level": true,
+					"levels": 3,
+					"calc": {
+						"points": 3,
+						"current_level": 3
+					}
+				},
+				{
+					"id": "tFRbbJt3DsvLd78Kp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tLQKF9eUQ9wM7pDRJ"
+					},
+					"name": "Social Stigma (Valuable Property)",
+					"reference": "B156",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -10,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tb7J10UGdTHmLw273",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "txHSphIWk4vt8Fe1M"
+					},
+					"name": "Vacuum Support",
+					"reference": "B96",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 3
+					}
+				}
+			],
+			"calc": {
+				"points": 21
+			}
+		}
+	]
+}
